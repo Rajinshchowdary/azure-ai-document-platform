@@ -1,4 +1,6 @@
-End-to-end "AI Document Intelligence Platform" :
+# Azure AI Document Intelligence Platform
+
+End-to-end AI Document Intelligence Platform:
 
 - React frontend
 - FastAPI on Azure App Service
@@ -11,8 +13,9 @@ End-to-end "AI Document Intelligence Platform" :
 - Azure Application Gateway with HTTPS and WAF
 - Monitoring using Azure Monitor and Application Insights
 
-Repository structure:
+## Repository Structure
 
+```
 azure-aiml-document-platform/
 ├── frontend/
 │   └── ...
@@ -29,8 +32,9 @@ azure-aiml-document-platform/
 ├── diagrams/
 │   └── ...
 └── .github/
+```
 
-Architecture Mapping
+## Architecture Mapping
 
 | Azure Service       | Role                      |
 | ------------------- | ------------------------- |
@@ -45,8 +49,8 @@ Architecture Mapping
 | Key Vault           | API keys                  |
 | Entra ID            | User login                |
 
+## Possible ML Features
 
-Possible ML features:
 - Resume parser
 - Invoice analyzer
 - Legal document summarizer
@@ -55,8 +59,8 @@ Possible ML features:
 - Embedding search
 - Question answering over PDFs
 
+## This Demonstrates
 
-This demonstrates:
 - Event-driven architecture
 - AI pipeline
 - Storage
