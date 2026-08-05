@@ -1,0 +1,20 @@
+			User
+			   │
+			Upload PDF
+			   │
+			App Service
+			   │
+			Blob Storage
+			   │
+			Azure Function Trigger
+			   │
+			ML Processing
+			   │
+			Extract text
+			Summarize
+			Generate embeddings
+			Classify
+			   │
+			Store results
+			   │
+			User views dashboard
