@@ -12,10 +12,9 @@ class Settings(BaseSettings):
     AZURE_STORAGE_CONNECTION_STRING: str = ""
     AZURE_CONTAINER_NAME: str = "documents"
     
-    # JWT
-    SECRET_KEY: str = "your-super-secret-jwt-key"
-    ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    # Azure AD (Entra ID)
+    AZURE_CLIENT_ID: str = ""
+    AZURE_TENANT_ID: str = ""
     
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
